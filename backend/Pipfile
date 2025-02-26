@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 django = "*"
+fastapi = "*"
+uvicorn = "*"
 
 [dev-packages]
 
