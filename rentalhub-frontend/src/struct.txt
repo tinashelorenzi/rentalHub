@@ -1,0 +1,134 @@
+Folder PATH listing
+Volume serial number is 3C24-32CF
+C:.
+¦   App.css
+¦   App.tsx
+¦   index.css
+¦   main.tsx
+¦   struct.txt
+¦   vite-env.d.ts
+¦   
++---assets
+¦       react.svg
+¦       
++---components
+¦   +---common
+¦   ¦       Avatar.tsx
+¦   ¦       Badge.tsx
+¦   ¦       Button.tsx
+¦   ¦       Card.tsx
+¦   ¦       EmptyState.tsx
+¦   ¦       LoadingSpinner.tsx
+¦   ¦       NotificationBadge.tsx
+¦   ¦       Pagination.tsx
+¦   ¦       StatusIndicator.tsx
+¦   ¦       
+¦   +---dashboard
+¦   ¦       InvoiceCard.tsx
+¦   ¦       MaintenanceRequestCard.tsx
+¦   ¦       OccupancyRateChart.tsx
+¦   ¦       PropertyCard.tsx
+¦   ¦       PropertyStatusChart.tsx
+¦   ¦       RevenueChart.tsx
+¦   ¦       StatCard.tsx
+¦   ¦       
+¦   +---forms
+¦   ¦       Checkbox.tsx
+¦   ¦       DatePicker.tsx
+¦   ¦       FileUpload.tsx
+¦   ¦       Input.tsx
+¦   ¦       Select.tsx
+¦   ¦       Textarea.tsx
+¦   ¦       
+¦   +---layout
+¦   ¦       Header.tsx
+¦   ¦       Layout.tsx
+¦   ¦       PageHeader.tsx
+¦   ¦       Sidebar.tsx
+¦   ¦       
+¦   +---leases
+¦   ¦       LeaseInfoCard.tsx
+¦   ¦       
+¦   +---maintenance
+¦   ¦       MaintenanceTimeline.tsx
+¦   ¦       
+¦   +---payments
+¦   ¦       PaymentHistoryTable.tsx
+¦   ¦       
+¦   +---property
+¦           PropertyDetailsCard.tsx
+¦           PropertyGallery.tsx
+¦           
++---config
+¦       constants.ts
+¦       routes.ts
+¦       
++---contexts
+¦       AuthContext.tsx
+¦       NotificationContext.tsx
+¦       ThemeContext.tsx
+¦       
++---hooks
+¦       index.ts
+¦       useApi.ts
+¦       useClickOutside.ts
+¦       useDebounce.ts
+¦       useFormData.ts
+¦       useLocalStorage.ts
+¦       useMediaQuery.ts
+¦       usePagination.ts
+¦       usePrevious.ts
+¦       usePropertyChart.ts
+¦       useScrollToTop.ts
+¦       useToast.ts
+¦       
++---pages
+¦   ¦   Dashboard.tsx
+¦   ¦   NotFound.tsx
+¦   ¦   Notifications.tsx
+¦   ¦   Profile.tsx
+¦   ¦   Reports.tsx
+¦   ¦   Settings.tsx
+¦   ¦   
+¦   +---auth
+¦   ¦       ForgotPassword.tsx
+¦   ¦       Login.tsx
+¦   ¦       Register.tsx
+¦   ¦       ResetPassword.tsx
+¦   ¦       
+¦   +---lease
+¦   ¦       LeaseCreate.tsx
+¦   ¦       LeaseDetails.tsx
+¦   ¦       Leases.tsx
+¦   ¦       
+¦   +---property
+¦   ¦       Properties.tsx
+¦   ¦       PropertyCreate.tsx
+¦   ¦       PropertyDetails.tsx
+¦   ¦       PropertyEdit.tsx
+¦   ¦       
+¦   +---tenant
+¦           TenantDetails.tsx
+¦           Tenants.tsx
+¦           
++---services
+¦       api.ts
+¦       auth.service.ts
+¦       dashboard.service.ts
+¦       index.ts
+¦       invoice.service.ts
+¦       lease.service.ts
+¦       maintenance.service.ts
+¦       notification.service.ts
+¦       payment.service.ts
+¦       property.service.ts
+¦       user.service.ts
+¦       
++---types
+¦       index.ts
+¦       
++---utils
+        formatters.ts
+        helpers.ts
+        validators.ts
+        

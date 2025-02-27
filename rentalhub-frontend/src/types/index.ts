@@ -44,6 +44,7 @@ export interface PropertyImage {
 export interface Lease {
   id: number;
   property_id: number;
+  property: Property;
   tenant_id: number;
   start_date: string;
   end_date: string;
@@ -54,6 +55,8 @@ export interface Lease {
   updated_at: string;
   property_name: string;
   tenant_name: string;
+  lease_document?: string;
+
 }
 
 export interface MaintenanceRequest {
