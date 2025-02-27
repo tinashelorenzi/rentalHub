@@ -77,7 +77,7 @@ const LeaseDetails: React.FC = () => {
   const hasPermission = lease && user && (
     user.role === 'ADMIN' ||
     user.id === lease.tenant_id || // Tenant of this lease
-    (user.role === 'LANDLORD' && lease.property_owner_id === user.id) || // Owner of the property
+    (user.role === 'LANDLORD' && lease.owner_id === user.id) || // Owner of the property
     (user.role === 'PROPERTY_MANAGER' && lease.property_manager_id === user.id) // Manager of the property
   );
   
